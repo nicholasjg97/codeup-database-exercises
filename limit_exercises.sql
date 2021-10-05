@@ -8,4 +8,4 @@ order by salary desc limit 5;
 
 select salary, emp_no from salaries
 order by salary desc
-limit 5 offset 46;
+limit 5 offset 45;
