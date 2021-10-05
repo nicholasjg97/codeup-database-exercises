@@ -4,7 +4,7 @@ select distinct title from titles;
 
 select last_name from employees
 where last_name like 'e%e'
-group by last_name;
+group by last_name order by last_name;
 
 select first_name, last_name from employees
 where last_name like 'e%e'
